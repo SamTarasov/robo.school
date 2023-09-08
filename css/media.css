@@ -290,13 +290,6 @@
 .block_title_info::before {
 display: none;
 }
-.block_title_info::after{
-    content: url("/img/before.svg");
-    top: 10px;
-    right: 50px;
-    padding-left: 10px;
-    padding-bottom: 50px;
-}
 .teach_h3{
     font-size: 30px;
 }

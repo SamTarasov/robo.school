@@ -1,0 +1,394 @@
+@media (max-width: 2560px) {
+  .container {
+    max-width: 1700px;
+  }
+
+  .girl {
+    max-width: 15%;
+    right: 600px;
+  }
+
+  .ellipse {
+    max-width: 30%;
+    right: 450px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .girl {
+    max-width: 45%;
+    right: 250px;
+  }
+
+  .ellipse {
+    max-width: 42%;
+    right: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1100px;
+  }
+
+  .girl {
+    max-width: 45%;
+    right: 150px;
+  }
+
+  .ellipse {
+    max-width: 42%;
+    right: 70px;
+  }
+
+  .text_total {
+    padding-bottom: 5em;
+  }
+
+  .teach_grid {
+    grid-gap: 10px;
+  }
+
+  .teach_img {
+    width: 90%;
+  }
+
+  .bolsa_price {
+    font-size: 40px;
+  }
+
+  .bolsa_link {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  .header_nav {
+    padding-top: 1px;
+  }
+
+  .header_logo h1 {
+    font-size: 20px;
+  }
+  .nav_link {
+    font-size: 12px;
+  }
+
+  .tel {
+    font-size: 20px;
+  }
+
+  .text_total {
+    margin-top: 5em;
+    padding-bottom: 2em;
+  }
+
+  .text_total h1 {
+    font-size: 40px;
+  }
+
+  .text_total p {
+    font-size: 15px;
+  }
+
+  .text_link {
+    padding: 15px 30px;
+  }
+
+  .infa {
+    margin-top: 3em;
+  }
+
+  .infa_text {
+    font-size: 20px;
+  }
+
+  .infa_num {
+    font-size: 40px;
+  }
+  .infa_num:hover {
+    font-size: 41px;
+  }
+
+  .infa_deck {
+    font-size: 15px;
+  }
+
+  .bolsa_h3 {
+    gap: 0.5em;
+  }
+
+  .bolsa_grid {
+    margin-top: 3em;
+  }
+
+  .bolsa {
+    padding-top: 0.5em;
+  }
+
+  .bolsa_item {
+    padding: 25px 10px 48px 10px;
+  }
+  .bolsa_mode {
+    font-size: 20px;
+  }
+
+  .bolsa_price {
+    font-size: 30px;
+  }
+
+  .bolsa_info {
+    font-size: 15px;
+  }
+
+  .bolsa_link {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .recor_h3 {
+    font-size: 30px;
+  }
+  .recor_p {
+    font-size: 16px;
+  }
+
+  .name,
+  .tel_recor,
+  .email {
+    padding: 7px 77px 7px 7px;
+  }
+
+  .recor_a {
+    padding: 7px 23px 7px 73px;
+    font-size: 16px;
+    align-items: center;
+  }
+  .foot {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .tel {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 400px;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header_nav{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+  .header_logo h1 {
+    font-size: 17px;
+  }
+
+
+  .nav_link {
+    font-size: 12px;
+  }
+
+  .header_tel .tel{
+    font-size: 15px;
+  }
+
+  .text_total {
+    margin-top: 1em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .text_total h1 {
+    margin-top: 2em;
+    font-size: 30px;
+    grid-column: 1 / span 3;
+  }
+
+  .text_total p {
+    font-size: 10px;
+    line-height: 180%;
+  }
+
+  .text_btn{
+    margin-top: .5em;
+}
+
+  .text_link {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+.text_total p {
+    max-width: 190px;
+}
+.girl{
+    display: none;
+}
+
+.ellipse{
+    display: none;
+}
+
+  .infa {
+    margin-top: 2em;
+    padding-bottom: 3em;
+  }
+
+  .infa_grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+  .infa_text {
+    font-size: 20px;
+  }
+
+  .infa_num {
+    font-size: 40px;
+  }
+  .infa_num:hover {
+    font-size: 41px;
+  }
+
+  .infa_deck {
+    font-size: 15px;
+  }
+
+  .block_grid{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+    text-align: center;
+}
+.block_h2{
+    font-size: 30px;
+    text-align: center;
+}
+.block_title_info::before {
+display: none;
+}
+.block_title_info::after{
+    content: url("/img/before.svg");
+    top: 10px;
+    right: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+.teach_h3{
+    font-size: 30px;
+}
+.teach_grid{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 3em;
+}
+.teach_img{
+    width: 80%;
+}
+
+.teach_name{
+    font-size: 30px;
+}
+
+.teach_link{
+    font-size: 25px;
+}
+  .bolsa_h3 {
+    gap: 0.5em;
+    font-size: 30px;
+  }
+
+  .bolsa_grid {
+    margin-top: 3em;
+  }
+.bolsa_grid{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+  .bolsa_item {
+    padding: 25px 10px 48px 10px;
+  }
+  .bolsa_mode {
+    font-size: 20px;
+  }
+
+  .bolsa_price {
+    font-size: 30px;
+  }
+
+  .bolsa_info {
+    font-size: 15px;
+    margin-bottom: 2em;
+  }
+
+  .bolsa_link {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .recor_frid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+  .recor_h3 {
+    font-size: 30px;
+  }
+  .recor_p {
+    margin-top: 1em;
+    font-size: 20px;
+  }
+
+  .recor_right{
+    margin-top: 2em;
+}
+
+  .name,
+  .tel_recor,
+  .email {
+    padding: 7px 77px 7px 7px;
+  }
+
+  .recor_a {
+    padding: 7px 23px 7px 73px;
+    font-size: 16px;
+    align-items: center;
+  }
+  .foot {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .tel {
+    font-size: 20px;
+  }
+}

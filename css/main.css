@@ -1,0 +1,425 @@
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* Header */
+
+.header {
+  width: 100vw;
+  color: #fff;
+  background-color: #141024;
+  position: relative;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.7em;
+  cursor: pointer;
+}
+.header_logo h1{
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.header_logo:hover {
+  color: rgb(244, 251, 255);
+  text-shadow: 0 0 25px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.nav {
+  display: flex;
+  gap: 2em;
+}
+
+.nav_link {
+  transition: all 0.5s ease;
+}
+.nav_link:hover {
+  color: rgb(244, 251, 255);
+  text-shadow: 0 0 25px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.nav_link:active {
+  font-size: 23px;
+  margin: 2px;
+}
+
+.header_tel {
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+
+.header_tel:hover {
+  color: rgb(244, 251, 255);
+  text-shadow: 0 0 25px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.text_total {
+  margin-top: 10em;
+  padding-bottom: 11.6em;
+}
+
+.text_total h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.text_total p {
+  margin-top: 2em;
+  font-size: 20px;
+  font-weight: 100;
+  max-width: 500px;
+}
+
+.text_btn {
+  margin-top: 2em;
+}
+
+.text_link {
+  padding: 25px 54px;
+  background-color: #d52027;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.5s ease;
+  border: 3px solid #141024;
+}
+
+.text_link:hover {
+  padding: 23px 53px;
+  background-color: #141024;
+  border-radius: 25px;
+  border-color: #ae1c21;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.girl {
+  width: 25%;
+  position: absolute;
+  bottom: 0;
+  right: 325px;
+  z-index: 1;
+}
+.ellipse {
+  max-width: 40%;
+  position: absolute;
+  bottom: 20px;
+  right: 225px;
+  border: 5px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  border-color: #141024;
+  transition: all 0.5s ease;
+}
+
+.ellipse:hover {
+  border-color: #ae1c21;
+  box-shadow: 0px 0px 100px 40px rgba(255, 56, 56, 0.26);
+}
+
+/* Infa */
+
+.infa {
+  margin-top: 6em;
+  padding-bottom: 6em;
+}
+
+.infa_grid {
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 38px;
+}
+
+.infa_text{
+  font-size: 27px;
+}
+.infa_text span{
+  font-weight: 600;
+}
+
+.infa_num {
+  color: #d52027;
+  font-size: 60px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+.infa_num:hover {
+  font-size: 73px;
+  color: rgb(203, 7, 7);
+  text-shadow: 0 0 0px rgb(255, 3, 3), 0 0 10px rgb(255, 0, 0);
+}
+
+.infa_deck {
+  padding-top: 1.5em;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Block */
+
+.block {
+  background-color: #f9f9f9;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.block_h2 {
+  color: #141024;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.block_grid {
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.block_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.block_subtitle {
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 15px;
+}
+
+.block_title_info{
+    position: relative;
+}
+
+.block_title_info::before {
+  content: url("/img/before.svg");
+  padding: 10px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+}
+
+
+/* Teach */
+
+.teach{
+    margin-top: 3em;
+    padding-bottom: 3em;
+}
+
+.teach_h3{
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.teach_grid{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.teach_img{
+    max-width: 330px;
+    border-radius: 20px;
+}
+
+.teach_name {
+    font-size: 24px;
+    color: #141024;
+    font-weight: 600;
+    margin-top: .5em;
+}
+.teach_prof {
+    margin-top: 0.5em;
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+}
+.teach_a {
+    margin-top: 0.5em;
+
+}
+.teach_link {
+    color: #D52027;
+    font-size: 18px;
+}
+
+
+/* Bolsa */
+.bolsa {
+    padding-top: 1.5em;
+}
+
+.bolsa_h3{
+    margin-top: 1em;
+    font-size: 50px;
+    color: #141024;
+}
+.bolsa_grid {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+.bolsa_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 30px 58px 50px;
+    border: 1px solid rgba(20, 16, 36, 0.20);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.bolsa_mode {
+    font-size: 30px;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+.bolsa_price {
+    font-size: 50px;
+    font-weight: 600;
+}
+.bolsa_info {
+    margin-top: 2em;
+    font-size: 18px;
+    transition: all .5s ease;
+    margin-bottom: 3em;
+}
+.bolsa_a {
+    margin-top: auto; /* Выравнивание по нижнему краю */
+    
+}
+.bolsa_link {
+    padding: 25px 54px;
+    background-color: #D52027;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s ease;
+    border: 3px solid #D52027;
+}
+
+.bolsa_item:hover{
+    background-color: #141024;
+    color: #fff;
+    transform: translateY(-15px);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bolsa_mode:hover{
+    color: #fff;
+}
+
+.bolsa_link:hover{
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: #141024;
+}
+
+
+/* Recor */
+
+.recor{
+  margin-top: 3em;
+  background-color: #D52027;
+  padding-bottom: 3em;
+}
+
+.recor_frid{
+  padding-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: end;
+  align-items: start;
+}
+
+.recor_h3{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.recor_p{
+  margin-top: 0.5em;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.recor
+
+
+.recor_right{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+
+.name, .tel_recor, .email{
+  padding: 13px 137px 19px 19px;
+  border-radius: 5px;
+  border: none;
+}
+
+.recor_a{
+
+  padding: 19px 93px 19px 93px;
+  background-color: #141024;
+  border-radius: 5px;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+
+
+/* Footer */
+
+footer{
+  background-color: #141024;
+}
+
+.foot{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tel{
+  font-size: 30px;
+  font-weight: 600;
+}
+
